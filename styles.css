@@ -201,6 +201,14 @@ h3{
     padding: 50px;
 }
 
+.call
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
 .resint1
 {
     flex-basis: 32%;
@@ -213,17 +221,17 @@ h3{
 }
 
 .resint1 img{
-    width: 30%;
+    width: 100%;
     display: block;
 }
 
 .layer{
     background: transparent;
     height: 100%;
-    width: 50%;
+    width: 100%;
     position: absolute;
     top: 0;
-    left: -20%;
+    left: 0;
     
 }
 .layer:hover{
