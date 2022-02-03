@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = 'viewport' content = "with=device-width, initial-scale = 1.0">
+        <title>Website_Academic</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "sub-header2">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg" alt=""></a>
+            <div class="nav-links" id='navLinks'>
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="file:///E:/Python_Django/html_css_/index.html">HOME</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/About.html">ABOUT ME</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/Academic.html">ACADEMIC</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/Skills.html">SKILLS</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/Contact Me.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-caret-down" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>ACADEMIC</h1>
+        <p>
+
+        </p>
+
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>This is about me!!</h1>
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+
+
+<!-------------Common Footer------------>
+<section class="footer">
+    <h4>Reach Me</h4>
+    <div class="icon">
+        <i class="fa-solid fa-cutlery"></i>
+        <i class="fas fa-cloud"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"></i>
+    </div>
+</section>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

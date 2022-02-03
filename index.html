@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = 'viewport' content = "with=device-width, initial-scale = 1.0">
+        <title>Website</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "header">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg" alt=""></a>
+            <div class="nav-links" id='navLinks'>
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="file:///E:/Python_Django/html_css_/index.html">HOME</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/About.html">ABOUT ME</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/Academic.html">ACADEMIC</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/Skills.html">SKILLS</a></li>
+                    <li><a href="file:///E:/Python_Django/html_css_/Contact Me.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-caret-down" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>Susanket Sarkar</h1>
+        <p> 2 <sup>nd</sup> Year Undergraduate
+        <br> Department of Aerospace Engineering
+        <br> Indian Institute of Technology, Kharagpur
+        </p>
+        <a href="" class="hero-btn">Visit me</a>
+    </div>
+
+    </section>
+
+<section class="text">
+    <h1>HELLO!! </h1>
+    <h2>My name is <h1>Susanket Sarkar</h1>  and this is my portfolio.
+    </h2>
+
+    <div class="row">
+        <div class="text-col">
+            <h3>Heading 01</h3>
+            <p>My research interests lie majorly in the field of Bias and Explainability in Deep Learning models, with an aim to make these models more understandable to human beings. I am currently working on my B.Tech. project related to contextual bias in Vision models. </p>
+        </div>
+        <div class="text-col">
+            <h3>Heading 02</h3>
+            <p>My research interests lie majorly in the field of Bias and Explainability in Deep Learning models, with an aim to make these models more understandable to human beings. I am currently working on my B.Tech. </p>
+        </div>
+        <div class="text-col">
+            <h3>Heading 03</h3>
+            <p>My research interests lie majorly in the field of Bias and Explainability in Deep Learning models, with an aim to make these models more understandable to human beings. I am currently working on my B.Tech. </p>
+        </div>
+    </div>
+
+</section>
+
+<section class="HHYD">
+    <h1>Hey How you doing</h1>
+    <p>My research interests lie majorly in the field of Bias and Explainability in Deep Learning models, with an aim to make these models more understandable to human beings. I am currently working on my B.Tech.</p>
+
+    <div class="call">
+        <div class="resint1">
+            <img src="images/dl.gif" >
+            <div class="layer">
+                <h3>Deep <br> Learning</h3>
+            </div>
+        </div>
+        <div class="resint1">
+            <img src="images/ml.gif">
+            <div class="layer">
+                <h3>Machine <br> Learning</h3>
+            </div>
+        </div>
+        <div class="resint1">
+            <img src="images/cv.gif">
+            <div class="layer">
+                <h3>Computer <br> Vision</h3>
+            </div>
+        </div>
+        <div class="resint1">
+            <img src="images/nlp.gif">
+            <div class="layer">
+                <h3>NLP</h3>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="callme">
+    <h1>Do you have a comment?</h1>
+    <a href="" class="hero-btn">CONTACT ME</a>
+</section>
+
+
+<!-------------Common Footer------------>
+<section class="footer">
+    <h4>Reach Me</h4>
+    <div class="icon">
+        <i class="fa-solid fa-cutlery"></i>
+        <i class="fas fa-cloud"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-github"></i>
+    </div>
+</section>
+
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
