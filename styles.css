@@ -72,12 +72,13 @@ nav img{
 }
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 100px;
 }
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 20px;
+    line-height: 35px;
+    font-size: 30px;
     color: white;
 }
 
@@ -87,7 +88,7 @@ nav img{
     color: white;
     border: 1px solid white;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 20px;
     background: transparent;
     position: relative;
     cursor: pointer;
@@ -297,15 +298,17 @@ h3{
 
 
 .footer h4{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-top: 20px;
     font-weight: 600;
+    font-size: larger;
+    font-family: monospace;
 }
 
 
 .icon .fa
 {
-    color: cornsilk;
+    color: rgb(17, 17, 15);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
